@@ -1,0 +1,286 @@
+.login {
+    border-radius: 24px; /* 24px from HEAD */
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Horizontally center align */
+    align-items: center; /* Vertically center align */
+    width: 100%; /* Full width */
+    max-width: 110%; /* Limit the maximum width */
+    box-sizing: border-box;
+  }
+  
+  .rectangle-4 {
+    /* Commented out background image to avoid redundancy */
+    background: url('assets/images/Rectangle4.png') 100%, linear-gradient(37.64deg, #9181F4 105.8%, #201D2F 206.69%, #5038ED 206.7%);
+    width: 183px; /* Width from HEAD */
+    height: 768px;
+  }
+  
+  .container {
+    background: linear-gradient(37.64deg, #9181F4 105.8%, #5038ED 206.7%);
+    position: absolute;
+    display: flex;
+    justify-content: center; /* Horizontally center align */
+    align-items: center; /* Vertically center align */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    max-width: 683px;
+    box-sizing: border-box;
+  }
+  
+  .container-1 {
+    margin: 127px auto 85px auto; /* Center horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+    box-sizing: border-box;
+  }
+  
+  .container-2 {
+    border-radius: 16px;
+    border: 1px solid #F0EDFF;
+    position: relative;
+    display: flex;
+    padding: 9px 0.8px 10px 0;
+    width: 114px;
+    box-sizing: border-box;
+  }
+  
+  .login .group-8 {
+    border-radius: 16px; /* 16px from branch */
+    margin: 0 22px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .login .group-5 {
+    margin: 9px 30.8px 10px 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .login .dont-have-account {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #1C1C1C;
+  }
+  
+  .login .rectangle-4 {
+    width: 683px; /* Width from branch */
+    height: 768px;
+  }
+  
+  .login .group-10 {
+    margin-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .login .group-4 {
+    position: relative;
+    margin: 0 0 35px 14px;
+    display: flex;
+    padding-left: 0.7px;
+    width: 364px;
+    box-sizing: border-box;
+  }
+  
+  .login .login-with-others {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #525252;
+  }
+  
+  .login-with-others-sub3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.333;
+    color: #1C1C1C;
+  }
+  
+  .login .subtract {
+    position: absolute;
+    left: 50%;
+    top: 11px;
+    translate: -50% 0;
+    width: 364px;
+    height: 1px;
+  }
+  
+  .login .login-1 {
+    margin: 0 0 8px 12.2px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  .login .connecting-with-you-every-step-of-the-way {
+    margin: 0 0.7px 24px 28px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #525252;
+  }
+  
+  .login .group-2 {
+    border-radius: 16px;
+    background: rgba(240, 237, 255, 0.8);
+    position: relative;
+    margin: 0 0 34px 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 16px 21px;
+    width: 364px;
+    box-sizing: border-box;
+  }
+  
+  .login .password {
+    margin: 2px 0 1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #1C1C1C;
+  }
+  
+  .login .frame {
+    margin-right: 9px;
+    display: flex;
+    width: 18px;
+    height: 21px;
+    box-sizing: border-box;
+  }
+  
+  .login .vector {
+    width: 18px;
+    height: 21px;
+  }
+  
+  .login .group-1 {
+    border-radius: 16px;
+    background: rgba(240, 237, 255, 0.8);
+    position: relative;
+    margin: 0 0 18px 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 16px 22px;
+    width: 364px;
+    box-sizing: border-box;
+  }
+  
+  .login .username {
+    margin: 2px 0 1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #1C1C1C;
+  }
+  
+  .login .frame-1 {
+    margin-right: 10px;
+    display: flex;
+    width: 16px;
+    height: 21px;
+    box-sizing: border-box;
+  }
+  
+  .login .vector-1 {
+    width: 16px;
+    height: 21px;
+  }
+  
+  .login .group-9 {
+    border-radius: 16px;
+    border: 1px solid #F0EDFF;
+    position: relative;
+    margin-right: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 11px 0;
+    width: 364px;
+    box-sizing: border-box;
+  }
+  
+  .continue-with-google {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.333;
+  }
+  
+  .login .continue-with-google {
+    margin: 6px 0;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #1C1C1C;
+  }
+  
+  .login .google-1 {
+    /* Commented out background image to avoid redundancy */
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .login .sign-up {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+  }
+  
+  .login .login-2 {
+    margin: 0 7.3px 36px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .login .container {
+    background: linear-gradient(37.64deg, #9181F4 105.8%, #5038ED 206.7%);
+    position: relative;
+    display: flex;
+    width: 683px;
+    height: 768px;
+    box-sizing: border-box;
+  }
+  
+  .login .container-1 {
+    margin: 127px 160px 85px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+  
+  .login .container-2 {
+    border-radius: 16px;
+    border: 1px solid #F0EDFF;
+    position: relative;}
